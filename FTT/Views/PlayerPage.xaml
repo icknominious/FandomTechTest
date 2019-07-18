@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:data="clr-namespace:FTT.Data"
+             xmlns:views="clr-namespace:FTT.Views"
+             x:Class="FTT.Views.PlayerPage"
+             Title="Roster">
+    <ContentPage.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" 
+                                        Value="#039BE6" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <CollectionView x:Name="PlayerCollection"
+                            Margin="20">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding Image}" 
+                                   Grid.RowSpan="2"
+                                   Aspect="AspectFill"
+                                   HeightRequest="30" 
+                                   WidthRequest="30" />
+                            <Label Grid.Column="1" 
+                                   Text="{Binding Name}" 
+                                   TextColor="DarkSlateGray"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="StartAndExpand"
+                                   VerticalOptions="Center"/>
+                            <Label Grid.Column="2"
+                                   Text="{Binding Team}" 
+                                   TextColor="DarkSlateGray"
+                                   HorizontalOptions="StartAndExpand"
+                                   VerticalOptions="Center"/>
+                            <Label Grid.Column="1" 
+                                   Grid.Row="1"
+                                   Text="{Binding Goals}" 
+                                   TextColor="DarkSlateGray"
+                                   HorizontalOptions="StartAndExpand"
+                                   VerticalOptions="Center"/>
+                            <Label Grid.Column="2" 
+                                   Grid.Row="1"
+                                   Text="{Binding Assists}" 
+                                   TextColor="DarkSlateGray"
+                                   HorizontalOptions="StartAndExpand"
+                                   VerticalOptions="Center"/>
+                            <Button x:Name="UpdateButton"
+                                    CornerRadius="15"
+                                    Grid.Column="3"
+                                    Grid.RowSpan="2"
+                                    Text="View"
+                                    FontSize="Micro"
+                                    Clicked="EditButtonClicked"
+                                    CommandParameter="{Binding Name}"
+                                    Padding="10"/>
+                            <Button x:Name="RemoveButton"
+                                    CornerRadius="15"
+                                    Grid.Column="4"
+                                    Grid.RowSpan="2"
+                                    Text="Remove"
+                                    FontSize="Micro"
+                                    Clicked="RemoveButtonClicked"
+                                    CommandParameter="{Binding Name}"
+                                    Padding="10"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

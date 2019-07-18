@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:data="clr-namespace:FTT.Data"
+             xmlns:views="clr-namespace:FTT.Views"
+             x:Class="FTT.Views.TeamPage"
+             Title="MLS Teams">
+    <ContentPage.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" 
+                                        Value="#039BE6" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <CollectionView x:Name="TeamCollection"
+                            ItemsSource="{x:Static data:TeamData.TeamList}"
+                            Margin="20">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding Image}" 
+                                   Aspect="AspectFill"
+                                   HeightRequest="50" 
+                                   WidthRequest="50" />
+                            <Label Grid.Column="1" 
+                                   Text="{Binding Name}" 
+                                   TextColor="DarkSlateGray"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="StartAndExpand"
+                                   VerticalOptions="Center"/>
+                            <Button x:Name="UpdateButton"
+                                    CornerRadius="15"
+                                    Grid.Column="2"
+                                    Text="View"
+                                    FontSize="Micro"
+                                    Clicked="ViewButtonClicked"
+                                    CommandParameter="{Binding Name}"
+                                    Padding="10"
+                                />
+                            <Button x:Name="RemoveButton"
+                                    CornerRadius="15"
+                                    Grid.Column="3"
+                                    Text="Remove"
+                                    FontSize="Micro"
+                                    Clicked="RemoveButtonClicked"
+                                    CommandParameter="{Binding Name}"
+                                    Padding="10"
+                                />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

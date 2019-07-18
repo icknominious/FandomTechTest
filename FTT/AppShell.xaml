@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:FTT.Views"
+       FlyoutHeaderBehavior="CollapseOnScroll"
+       x:Class="FTT.AppShell"
+       FlyoutBehavior="Disabled"
+       BackgroundColor = "#283840"
+       ForegroundColor = "White"
+       UnselectedColor = "#95FFFFFF" 
+       TabBarIsVisible ="False">
+    <Shell.Resources>
+        <Style x:Key="BaseStyle" 
+               TargetType="Element">
+        </Style>
+        <Style TargetType="ShellItem" 
+               BasedOn="{StaticResource BaseStyle}" />
+        <Style x:Key="AtlantaShell"
+               TargetType="Element" 
+               BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Shell.BackgroundColor" 
+                    Value="#039BE6" />
+        </Style>
+        <Style x:Key="LAShell" 
+               TargetType="Element"
+               BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Shell.BackgroundColor" 
+                    Value="#689F39" />
+        </Style>
+    </Shell.Resources>
+
+    <FlyoutItem Route="mls"
+                Title="MLS"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Route="Teams"
+                      Style="{StaticResource AtlantaShell}"
+                      Title="Atlanta"
+                      FlyoutIcon="aufc.png"
+                      ContentTemplate="{DataTemplate views:TeamPage}" />
+        <ShellContent Route="Free Agents"
+                      Style="{StaticResource AtlantaShell}"
+                      Title="Colombus"
+                      FlyoutIcon="aufc.png"
+                      ContentTemplate="{DataTemplate views:TeamPage}" />
+    </FlyoutItem>
+
+</Shell>
