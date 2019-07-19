@@ -8,8 +8,5 @@ namespace FTT.Models
     {
         public string Name { get; set; }
         public string Image { get; set; }
-
-        private IList<Player> roster;      
-        internal IList<Player> Roster { get => roster; set => roster = value; }
     }
 }

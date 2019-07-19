@@ -8,7 +8,8 @@
              Title="New Team">
     <ContentPage.Content>
         <StackLayout>
-            <Entry Placeholder="Enter team name"
+            <Entry x:Name="nameEntry"
+                Placeholder="Enter team name"
                 VerticalOptions="End" 
                 HorizontalOptions="CenterAndExpand" 
                 FontSize="Large"/>

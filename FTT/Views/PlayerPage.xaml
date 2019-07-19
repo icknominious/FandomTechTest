@@ -44,7 +44,7 @@
                                    Grid.RowSpan="2"
                                    Aspect="AspectFill"
                                    HeightRequest="40" 
-                                   WidthRequest="40" />
+                                   WidthRequest="80" />
                             <Label Grid.Column="1" 
                                    Grid.ColumnSpan="2"
                                    Text="{Binding Name}" 
@@ -78,24 +78,27 @@
                                        HorizontalOptions="Center"
                                        VerticalOptions="Center"/>
                             </StackLayout>
-                            <Button x:Name="UpdateButton"
-                                    CornerRadius="15"
+                            <Picker x:Name="teamPicker"
+                                    Title="Change Team"
+                                    ItemsSource="{x:Static data:TeamData.teamNames}"
                                     Grid.Row="1"
                                     Grid.Column="3"
-                                    Text="Change Team"
-                                    FontSize="8"
-                                    Clicked="EditButtonClicked"
-                                    CommandParameter="{Binding Name}"
-                                    Padding="10"/>
+                                    FontSize="9"
+                                    TextColor="Black"
+                                    HorizontalOptions="Center"
+                                    HeightRequest="40"
+                                    VerticalOptions="Center"
+                                    BackgroundColor="LightGray"
+                                    SelectedIndexChanged="TeamPicker_SelectedIndexChanged"/>
                             <Button x:Name="RemoveButton"
-                                    CornerRadius="15"
                                     Grid.Row="1"
                                     Grid.Column="4"
                                     Text="Remove"
                                     FontSize="8"
                                     Clicked="RemoveButtonClicked"
                                     CommandParameter="{Binding Name}"
-                                    Padding="10"/>
+                                    HeightRequest="40"
+                                    VerticalOptions="Center"/>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using FTT.Models;
 
 namespace FTT.Data
@@ -6,6 +7,7 @@ namespace FTT.Data
     public static class TeamData
     {
         public static ObservableCollection<Team> TeamList { get; set; }
+        public static List<string> teamNames;
 
         static TeamData()
         {
@@ -72,6 +74,11 @@ namespace FTT.Data
                 Image = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MLS_crest_logo_RGB_gradient.svg/1200px-MLS_crest_logo_RGB_gradient.svg.png"
             });
 
+            teamNames = new List<string>();
+            foreach (Team team in TeamList)
+            {
+                teamNames.Add(team.Name);
+            }
         }
     }
 }
