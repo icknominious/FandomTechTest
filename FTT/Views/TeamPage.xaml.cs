@@ -13,16 +13,6 @@ namespace FTT.Views
         {
             InitializeComponent();
         }
-
-        async void OnCollectionViewSelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            string catName = (e.CurrentSelection.FirstOrDefault() as Team).Name;
-            // This works because route names are unique in this application.
-            await Shell.Current.GoToAsync($"catdetails?name={catName}");
-            // The full route is shown below.
-            // await Shell.Current.GoToAsync($"//animals/domestic/cats/catdetails?name={catName}");
-        }
-
         async private void ViewButtonClicked(object sender, System.EventArgs e)
         {
             Button button = (Button)sender;

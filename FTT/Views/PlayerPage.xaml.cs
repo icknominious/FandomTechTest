@@ -1,10 +1,6 @@
 ﻿using FTT.Data;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,11 +10,13 @@ namespace FTT.Views
     [QueryProperty("Team", "team")]
     public partial class PlayerPage : ContentPage
     {
+        public string teamName;
         public string Team
         {
             set
             {
-                PlayerCollection.ItemsSource = PlayerData.PlayerList.Where(x => x.Team == Uri.UnescapeDataString(value));
+                teamName = Uri.UnescapeDataString(value);
+                PlayerCollection.ItemsSource = PlayerData.PlayerList.Where(x => x.Team == teamName);
             }
         }
         public PlayerPage()
@@ -32,6 +30,9 @@ namespace FTT.Views
 
         private void RemoveButtonClicked(object sender, System.EventArgs e)
         {
+            Button button = (Button)sender;
+            PlayerData.PlayerList.FirstOrDefault(x => x.Name == button.CommandParameter.ToString()).Team = "Free Agents";
+            PlayerCollection.ItemsSource = PlayerData.PlayerList.Where(x => x.Team == teamName);
         }
     }
 }

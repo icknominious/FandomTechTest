@@ -445,20 +445,20 @@
   "packageFolders": {
     "C:\\Users\\jalex\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\source\\repos\\FandomTechTest\\FTT\\FTT.csproj",
+      "projectUniqueName": "C:\\Users\\jalex\\source\\repos\\icknominious\\FTT\\FTT\\FTT.csproj",
       "projectName": "FTT",
-      "projectPath": "F:\\source\\repos\\FandomTechTest\\FTT\\FTT.csproj",
+      "projectPath": "C:\\Users\\jalex\\source\\repos\\icknominious\\FTT\\FTT\\FTT.csproj",
       "packagesPath": "C:\\Users\\jalex\\.nuget\\packages\\",
-      "outputPath": "F:\\source\\repos\\FandomTechTest\\FTT\\obj\\",
+      "outputPath": "C:\\Users\\jalex\\source\\repos\\icknominious\\FTT\\FTT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\jalex\\AppData\\Roaming\\NuGet\\NuGet.Config",

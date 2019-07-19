@@ -2,7 +2,6 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:data="clr-namespace:FTT.Data"
-             xmlns:views="clr-namespace:FTT.Views"
              x:Class="FTT.Views.TeamPage"
              Title="MLS Teams">
     <ContentPage.Resources>
@@ -41,8 +40,8 @@
                             </Grid.ColumnDefinitions>
                             <Image Source="{Binding Image}" 
                                    Aspect="AspectFill"
-                                   HeightRequest="50" 
-                                   WidthRequest="50" />
+                                   HeightRequest="60" 
+                                   WidthRequest="60"/>
                             <Label Grid.Column="1" 
                                    Text="{Binding Name}" 
                                    TextColor="DarkSlateGray"
@@ -57,7 +56,8 @@
                                     Clicked="ViewButtonClicked"
                                     CommandParameter="{Binding Name}"
                                     Padding="10"
-                                />
+                                    HeightRequest="35"
+                                    VerticalOptions="Center"/>
                             <Button x:Name="RemoveButton"
                                     CornerRadius="15"
                                     Grid.Column="3"
@@ -66,7 +66,8 @@
                                     Clicked="RemoveButtonClicked"
                                     CommandParameter="{Binding Name}"
                                     Padding="10"
-                                />
+                                    HeightRequest="35"
+                                    VerticalOptions="Center" />
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

@@ -43,7 +43,7 @@ namespace FTT.Data
             });
             TeamList.Add(new Team
             {
-                Name = "New York Red Bulls",
+                Name = "NY Red Bulls",
                 Image = "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/New_York_Red_Bulls_logo.svg/1200px-New_York_Red_Bulls_logo.svg.png"
             });
             TeamList.Add(new Team
@@ -65,6 +65,11 @@ namespace FTT.Data
             {
                 Name = "Seattle Sounders",
                 Image = "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Seattle_Sounders_FC.svg/1200px-Seattle_Sounders_FC.svg.png"
+            });
+            TeamList.Add(new Team
+            {
+                Name = "Free Agents",
+                Image = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MLS_crest_logo_RGB_gradient.svg/1200px-MLS_crest_logo_RGB_gradient.svg.png"
             });
 
         }
