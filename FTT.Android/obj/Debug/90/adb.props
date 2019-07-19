@@ -1,2 +1,2 @@
-AdbTarget=-s 8CAX1LEJA
+AdbTarget=-s emulator-5554
 AdbOptions=
