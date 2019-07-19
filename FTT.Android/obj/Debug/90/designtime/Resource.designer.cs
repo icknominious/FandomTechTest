@@ -26,6 +26,43 @@ namespace FTT.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::FTT.Droid.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::FTT.Droid.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::FTT.Droid.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::FTT.Droid.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::FTT.Droid.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::FTT.Droid.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::FTT.Droid.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::FTT.Droid.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::FTT.Droid.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::FTT.Droid.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::FTT.Droid.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::FTT.Droid.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::FTT.Droid.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::FTT.Droid.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::FTT.Droid.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::FTT.Droid.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::FTT.Droid.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::FTT.Droid.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::FTT.Droid.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::FTT.Droid.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::FTT.Droid.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::FTT.Droid.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::FTT.Droid.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::FTT.Droid.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::FTT.Droid.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::FTT.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::FTT.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::FTT.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::FTT.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::FTT.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::FTT.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::FTT.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::FTT.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::FTT.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::FTT.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::FTT.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::FTT.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::FTT.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::FTT.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::FTT.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -2599,17 +2636,17 @@ namespace FTT.Droid
 			// aapt resource value: 0x7F010010
 			public const int design_snackbar_out = 2130771984;
 			
-			// aapt resource value: 0x7F070018
-			public const int EnterFromLeft = 2131165208;
+			// aapt resource value: 0x7F100018
+			public const int EnterFromLeft = 2131755032;
 			
-			// aapt resource value: 0x7F070019
-			public const int EnterFromRight = 2131165209;
+			// aapt resource value: 0x7F100019
+			public const int EnterFromRight = 2131755033;
 			
-			// aapt resource value: 0x7F070020
-			public const int ExitToLeft = 2131165216;
+			// aapt resource value: 0x7F100020
+			public const int ExitToLeft = 2131755040;
 			
-			// aapt resource value: 0x7F070021
-			public const int ExitToRight = 2131165217;
+			// aapt resource value: 0x7F100021
+			public const int ExitToRight = 2131755041;
 			
 			static Animation()
 			{
@@ -2768,6 +2805,42 @@ namespace FTT.Droid
 			
 			// aapt resource value: 0x7F040022
 			public const int activityChooserViewStyle = 2130968610;
+			
+			// aapt resource value: 0x7F080005
+			public const int ahBarColor = 2131230725;
+			
+			// aapt resource value: 0x7F080013
+			public const int ahBarLength = 2131230739;
+			
+			// aapt resource value: 0x7F080012
+			public const int ahBarWidth = 2131230738;
+			
+			// aapt resource value: 0x7F080010
+			public const int ahCircleColor = 2131230736;
+			
+			// aapt resource value: 0x7F080009
+			public const int ahDelayMillis = 2131230729;
+			
+			// aapt resource value: 0x7F080011
+			public const int ahRadius = 2131230737;
+			
+			// aapt resource value: 0x7F080006
+			public const int ahRimColor = 2131230726;
+			
+			// aapt resource value: 0x7F080007
+			public const int ahRimWidth = 2131230727;
+			
+			// aapt resource value: 0x7F080008
+			public const int ahSpinSpeed = 2131230728;
+			
+			// aapt resource value: 0x7F080002
+			public const int ahText = 2131230722;
+			
+			// aapt resource value: 0x7F080003
+			public const int ahTextColor = 2131230723;
+			
+			// aapt resource value: 0x7F080004
+			public const int ahTextSize = 2131230724;
 			
 			// aapt resource value: 0x7F040023
 			public const int alertDialogButtonGroupStyle = 2130968611;
@@ -5509,6 +5582,9 @@ namespace FTT.Droid
 			// aapt resource value: 0x7F09005C
 			public const int design_snackbar_background = 2131296348;
 			
+			// aapt resource value: 0x7F060004
+			public const int ic_errorstatus = 2131099652;
+			
 			// aapt resource value: 0x7F09005D
 			public const int ic_mtrl_chip_checked_black = 2131296349;
 			
@@ -5517,6 +5593,9 @@ namespace FTT.Droid
 			
 			// aapt resource value: 0x7F09005F
 			public const int ic_mtrl_chip_close_circle = 2131296351;
+			
+			// aapt resource value: 0x7F060005
+			public const int ic_successstatus = 2131099653;
 			
 			// aapt resource value: 0x7F090060
 			public const int mtrl_snackbar_background = 2131296352;
@@ -5562,6 +5641,12 @@ namespace FTT.Droid
 			
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
+			
+			// aapt resource value: 0x7F060002
+			public const int roundedbg = 2131099650;
+			
+			// aapt resource value: 0x7F060003
+			public const int roundedbgdark = 2131099651;
 			
 			// aapt resource value: 0x7F09006F
 			public const int tooltip_frame_dark = 2131296367;
@@ -5660,11 +5745,11 @@ namespace FTT.Droid
 			// aapt resource value: 0x7F0C0008
 			public const int bottom = 2131492872;
 			
-			// aapt resource value: 0x7F010166
-			public const int bottomtab.navarea = 2130772326;
+			// aapt resource value: 0x7F010170
+			public const int bottomtab.navarea = 2130772336;
 			
-			// aapt resource value: 0x7F010167
-			public const int bottomtab.tabbar = 2130772327;
+			// aapt resource value: 0x7F010171
+			public const int bottomtab.tabbar = 2130772337;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int browser_actions_header_text = 2131492873;
@@ -5759,11 +5844,11 @@ namespace FTT.Droid
 			// aapt resource value: 0x7F0C0031
 			public const int @fixed = 2131492913;
 			
-			// aapt resource value: 0x7F010168
-			public const int flyoutcontent_appbar = 2130772328;
+			// aapt resource value: 0x7F010172
+			public const int flyoutcontent_appbar = 2130772338;
 			
-			// aapt resource value: 0x7F010169
-			public const int flyoutcontent_recycler = 2130772329;
+			// aapt resource value: 0x7F010173
+			public const int flyoutcontent_recycler = 2130772339;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
@@ -5816,17 +5901,26 @@ namespace FTT.Droid
 			// aapt resource value: 0x7F0C0042
 			public const int list_item = 2131492930;
 			
-			// aapt resource value: 0x7F010170
-			public const int main.appbar = 2130772336;
+			// aapt resource value: 0x7F010006
+			public const int loadingImage = 2130771974;
 			
-			// aapt resource value: 0x7F010173
-			public const int main.scrollview = 2130772339;
+			// aapt resource value: 0x7F010004
+			public const int loadingProgressBar = 2130771972;
 			
-			// aapt resource value: 0x7F010172
-			public const int main.tablayout = 2130772338;
+			// aapt resource value: 0x7F010007
+			public const int loadingProgressWheel = 2130771975;
 			
-			// aapt resource value: 0x7F010171
-			public const int main.toolbar = 2130772337;
+			// aapt resource value: 0x7F010174
+			public const int main.appbar = 2130772340;
+			
+			// aapt resource value: 0x7F010177
+			public const int main.scrollview = 2130772343;
+			
+			// aapt resource value: 0x7F010176
+			public const int main.tablayout = 2130772342;
+			
+			// aapt resource value: 0x7F010175
+			public const int main.toolbar = 2130772341;
 			
 			// aapt resource value: 0x7F0C0043
 			public const int masked = 2131492931;
@@ -5960,14 +6054,14 @@ namespace FTT.Droid
 			// aapt resource value: 0x7F0C006C
 			public const int select_dialog_listview = 2131492972;
 			
-			// aapt resource value: 0x7F010174
-			public const int shellcontent.appbar = 2130772340;
+			// aapt resource value: 0x7F010178
+			public const int shellcontent.appbar = 2130772344;
 			
-			// aapt resource value: 0x7F010176
-			public const int shellcontent.scrollview = 2130772342;
+			// aapt resource value: 0x7F010180
+			public const int shellcontent.scrollview = 2130772352;
 			
-			// aapt resource value: 0x7F010175
-			public const int shellcontent.toolbar = 2130772341;
+			// aapt resource value: 0x7F010179
+			public const int shellcontent.toolbar = 2130772345;
 			
 			// aapt resource value: 0x7F0C006E
 			public const int shortcut = 2131492974;
@@ -6046,6 +6140,9 @@ namespace FTT.Droid
 			
 			// aapt resource value: 0x7F0C0082
 			public const int textSpacerNoTitle = 2131492994;
+			
+			// aapt resource value: 0x7F010005
+			public const int textViewStatus = 2130771973;
 			
 			// aapt resource value: 0x7F0C0083
 			public const int text_input_password_toggle = 2131492995;
@@ -6287,8 +6384,8 @@ namespace FTT.Droid
 			// aapt resource value: 0x7F0F001C
 			public const int abc_tooltip = 2131689500;
 			
-			// aapt resource value: 0x7F020069
-			public const int BottomTabLayout = 2130837609;
+			// aapt resource value: 0x7F020072
+			public const int BottomTabLayout = 2130837618;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int browser_actions_context_menu_page = 2131689473;
@@ -6338,8 +6435,17 @@ namespace FTT.Droid
 			// aapt resource value: 0x7F0F002A
 			public const int design_text_input_password_icon = 2131689514;
 			
-			// aapt resource value: 0x7F020070
-			public const int FlyoutContent = 2130837616;
+			// aapt resource value: 0x7F020073
+			public const int FlyoutContent = 2130837619;
+			
+			// aapt resource value: 0x7F020004
+			public const int loading = 2130837508;
+			
+			// aapt resource value: 0x7F020005
+			public const int loadingimage = 2130837509;
+			
+			// aapt resource value: 0x7F020006
+			public const int loadingprogress = 2130837510;
 			
 			// aapt resource value: 0x7F0F002B
 			public const int mtrl_layout_snackbar = 2131689515;
@@ -6392,8 +6498,8 @@ namespace FTT.Droid
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F020071
-			public const int RootLayout = 2130837617;
+			// aapt resource value: 0x7F020074
+			public const int RootLayout = 2130837620;
 			
 			// aapt resource value: 0x7F0F0033
 			public const int select_dialog_item_material = 2131689523;
@@ -6404,8 +6510,8 @@ namespace FTT.Droid
 			// aapt resource value: 0x7F0F0035
 			public const int select_dialog_singlechoice_material = 2131689525;
 			
-			// aapt resource value: 0x7F020072
-			public const int ShellContent = 2130837618;
+			// aapt resource value: 0x7F020075
+			public const int ShellContent = 2130837621;
 			
 			// aapt resource value: 0x7F0F0036
 			public const int support_simple_spinner_dropdown_item = 2131689526;
@@ -6588,6 +6694,9 @@ namespace FTT.Droid
 			
 			// aapt resource value: 0x7F15002E
 			public const int hide_bottom_view_on_scroll_behavior = 2132082734;
+			
+			// aapt resource value: 0x7F090002
+			public const int library_name = 2131296258;
 			
 			// aapt resource value: 0x7F15002F
 			public const int mtrl_chip_close_icon_content_description = 2132082735;
@@ -8182,11 +8291,11 @@ namespace FTT.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F060082
-			public const int ActionBarLayout_android_layout_gravity = 2131099778;
+			// aapt resource value: 0x7F070095
+			public const int ActionBarLayout_android_layout_gravity = 2131165333;
 			
-			// aapt resource value: 0x7F060052
-			public const int ActionBar_background = 2131099730;
+			// aapt resource value: 0x7F070065
+			public const int ActionBar_background = 2131165285;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -8275,8 +8384,8 @@ namespace FTT.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F060084
-			public const int ActionMenuItemView_android_minWidth = 2131099780;
+			// aapt resource value: 0x7F070097
+			public const int ActionMenuItemView_android_minWidth = 2131165335;
 			
 			public static int[] ActionMenuView = new int[] {
 					0};
@@ -8289,8 +8398,8 @@ namespace FTT.Droid
 					2130968951,
 					2130969030};
 			
-			// aapt resource value: 0x7F060086
-			public const int ActionMode_background = 2131099782;
+			// aapt resource value: 0x7F070099
+			public const int ActionMode_background = 2131165337;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -8311,8 +8420,8 @@ namespace FTT.Droid
 					2130968763,
 					2130968824};
 			
-			// aapt resource value: 0x7F060093
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131099795;
+			// aapt resource value: 0x7F070106
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165446;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -8327,8 +8436,8 @@ namespace FTT.Droid
 					2130968924,
 					2130968925};
 			
-			// aapt resource value: 0x7F060096
-			public const int AlertDialog_android_layout = 2131099798;
+			// aapt resource value: 0x7F070109
+			public const int AlertDialog_android_layout = 2131165449;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonIconDimen = 1;
@@ -8359,8 +8468,8 @@ namespace FTT.Droid
 					16843157,
 					16843156};
 			
-			// aapt resource value: 0x7F060730
-			public const int AnimatedStateListDrawableCompat_android_constantSize = 2131101488;
+			// aapt resource value: 0x7F070743
+			public const int AnimatedStateListDrawableCompat_android_constantSize = 2131167043;
 			
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableCompat_android_dither = 1;
@@ -8381,8 +8490,8 @@ namespace FTT.Droid
 					16843161,
 					16842960};
 			
-			// aapt resource value: 0x7F060737
-			public const int AnimatedStateListDrawableItem_android_drawable = 2131101495;
+			// aapt resource value: 0x7F070750
+			public const int AnimatedStateListDrawableItem_android_drawable = 2131167056;
 			
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableItem_android_id = 1;
@@ -8393,8 +8502,8 @@ namespace FTT.Droid
 					16843851,
 					16843849};
 			
-			// aapt resource value: 0x7F060740
-			public const int AnimatedStateListDrawableTransition_android_drawable = 2131101504;
+			// aapt resource value: 0x7F070753
+			public const int AnimatedStateListDrawableTransition_android_drawable = 2131167059;
 			
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableTransition_android_fromId = 1;
@@ -8419,8 +8528,8 @@ namespace FTT.Droid
 					2130968940,
 					2130968941};
 			
-			// aapt resource value: 0x7F060112
-			public const int AppBarLayoutStates_state_collapsed = 2131099922;
+			// aapt resource value: 0x7F070125
+			public const int AppBarLayoutStates_state_collapsed = 2131165477;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
@@ -8431,8 +8540,8 @@ namespace FTT.Droid
 			// aapt resource value: 0x3
 			public const int AppBarLayoutStates_state_lifted = 3;
 			
-			// aapt resource value: 0x7F060105
-			public const int AppBarLayout_android_background = 2131099909;
+			// aapt resource value: 0x7F070118
+			public const int AppBarLayout_android_background = 2131165464;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -8450,8 +8559,8 @@ namespace FTT.Droid
 					2130968852,
 					2130968853};
 			
-			// aapt resource value: 0x7F060117
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131099927;
+			// aapt resource value: 0x7F070130
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165488;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -8465,8 +8574,8 @@ namespace FTT.Droid
 					2130969018,
 					2130969019};
 			
-			// aapt resource value: 0x7F060120
-			public const int AppCompatImageView_android_src = 2131099936;
+			// aapt resource value: 0x7F070133
+			public const int AppCompatImageView_android_src = 2131165491;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -8483,8 +8592,8 @@ namespace FTT.Droid
 					2130969016,
 					2130969017};
 			
-			// aapt resource value: 0x7F060125
-			public const int AppCompatSeekBar_android_thumb = 2131099941;
+			// aapt resource value: 0x7F070138
+			public const int AppCompatSeekBar_android_thumb = 2131165496;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -8504,8 +8613,8 @@ namespace FTT.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F060130
-			public const int AppCompatTextHelper_android_drawableBottom = 2131099952;
+			// aapt resource value: 0x7F070143
+			public const int AppCompatTextHelper_android_drawableBottom = 2131165507;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -8538,8 +8647,8 @@ namespace FTT.Droid
 					2130968855,
 					2130968983};
 			
-			// aapt resource value: 0x7F060138
-			public const int AppCompatTextView_android_textAppearance = 2131099960;
+			// aapt resource value: 0x7F070151
+			public const int AppCompatTextView_android_textAppearance = 2131165521;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -8694,8 +8803,8 @@ namespace FTT.Droid
 					2130969052,
 					2130969053};
 			
-			// aapt resource value: 0x7F060150
-			public const int AppCompatTheme_actionBarDivider = 2131099984;
+			// aapt resource value: 0x7F070163
+			public const int AppCompatTheme_actionBarDivider = 2131165539;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -9065,8 +9174,8 @@ namespace FTT.Droid
 					2130968775,
 					2130968806};
 			
-			// aapt resource value: 0x7F060272
-			public const int BottomAppBar_backgroundTint = 2131100274;
+			// aapt resource value: 0x7F070285
+			public const int BottomAppBar_backgroundTint = 2131165829;
 			
 			// aapt resource value: 0x1
 			public const int BottomAppBar_fabAlignmentMode = 1;
@@ -9095,8 +9204,8 @@ namespace FTT.Droid
 					2130968840,
 					2130968876};
 			
-			// aapt resource value: 0x7F060279
-			public const int BottomNavigationView_elevation = 2131100281;
+			// aapt resource value: 0x7F070292
+			public const int BottomNavigationView_elevation = 2131165842;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -9131,8 +9240,8 @@ namespace FTT.Droid
 					2130968636,
 					2130968637};
 			
-			// aapt resource value: 0x7F060290
-			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 2131100304;
+			// aapt resource value: 0x7F070303
+			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 2131165955;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_hideable = 1;
@@ -9146,8 +9255,8 @@ namespace FTT.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F060295
-			public const int ButtonBarLayout_allowStacking = 2131100309;
+			// aapt resource value: 0x7F070308
+			public const int ButtonBarLayout_allowStacking = 2131165960;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -9164,8 +9273,8 @@ namespace FTT.Droid
 					2130968731,
 					2130968732};
 			
-			// aapt resource value: 0x7F060297
-			public const int CardView_android_minHeight = 2131100311;
+			// aapt resource value: 0x7F070310
+			public const int CardView_android_minHeight = 2131165968;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -9247,8 +9356,8 @@ namespace FTT.Droid
 					2130968926,
 					2130968927};
 			
-			// aapt resource value: 0x7F060346
-			public const int ChipGroup_checkedChip = 2131100486;
+			// aapt resource value: 0x7F070359
+			public const int ChipGroup_checkedChip = 2131166041;
 			
 			// aapt resource value: 0x1
 			public const int ChipGroup_chipSpacing = 1;
@@ -9265,8 +9374,8 @@ namespace FTT.Droid
 			// aapt resource value: 0x5
 			public const int ChipGroup_singleSelection = 5;
 			
-			// aapt resource value: 0x7F060311
-			public const int Chip_android_checkable = 2131100433;
+			// aapt resource value: 0x7F070324
+			public const int Chip_android_checkable = 2131165988;
 			
 			// aapt resource value: 0x1
 			public const int Chip_android_ellipsize = 1;
@@ -9385,8 +9494,8 @@ namespace FTT.Droid
 					2130969021,
 					2130969031};
 			
-			// aapt resource value: 0x7F060353
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131100499;
+			// aapt resource value: 0x7F070366
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131166054;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -9419,8 +9528,8 @@ namespace FTT.Droid
 					2130968847,
 					2130968848};
 			
-			// aapt resource value: 0x7F060370
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131100528;
+			// aapt resource value: 0x7F070383
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131166083;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -9448,8 +9557,8 @@ namespace FTT.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F060003
-			public const int ColorStateListItem_alpha = 2131099651;
+			// aapt resource value: 0x7F070016
+			public const int ColorStateListItem_alpha = 2131165206;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -9462,8 +9571,8 @@ namespace FTT.Droid
 					2130968663,
 					2130968664};
 			
-			// aapt resource value: 0x7F060373
-			public const int CompoundButton_android_button = 2131100531;
+			// aapt resource value: 0x7F070386
+			public const int CompoundButton_android_button = 2131166086;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -9475,8 +9584,8 @@ namespace FTT.Droid
 					2130968589,
 					2130968596};
 			
-			// aapt resource value: 0x7F060041
-			public const int CoordinatorLayout_keylines = 2131099713;
+			// aapt resource value: 0x7F070054
+			public const int CoordinatorLayout_keylines = 2131165268;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -9487,8 +9596,8 @@ namespace FTT.Droid
 					2130968594,
 					2130968595};
 			
-			// aapt resource value: 0x7F060044
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131099716;
+			// aapt resource value: 0x7F070057
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165271;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -9515,8 +9624,8 @@ namespace FTT.Droid
 					2130968642,
 					2130968643};
 			
-			// aapt resource value: 0x7F060377
-			public const int DesignTheme_bottomSheetDialogTheme = 2131100535;
+			// aapt resource value: 0x7F070390
+			public const int DesignTheme_bottomSheetDialogTheme = 2131166096;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -9531,8 +9640,8 @@ namespace FTT.Droid
 					2130968931,
 					2130969011};
 			
-			// aapt resource value: 0x7F060380
-			public const int DrawerArrowToggle_arrowHeadLength = 2131100544;
+			// aapt resource value: 0x7F070393
+			public const int DrawerArrowToggle_arrowHeadLength = 2131166099;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -9570,8 +9679,8 @@ namespace FTT.Droid
 					2130968922,
 					2130969041};
 			
-			// aapt resource value: 0x7F060389
-			public const int FloatingActionButton_backgroundTint = 2131100553;
+			// aapt resource value: 0x7F070402
+			public const int FloatingActionButton_backgroundTint = 2131166210;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -9579,8 +9688,8 @@ namespace FTT.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F060403
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131100675;
+			// aapt resource value: 0x7F070416
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131166230;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -9619,8 +9728,8 @@ namespace FTT.Droid
 					2130968834,
 					2130968856};
 			
-			// aapt resource value: 0x7F060405
-			public const int FlowLayout_itemSpacing = 2131100677;
+			// aapt resource value: 0x7F070418
+			public const int FlowLayout_itemSpacing = 2131166232;
 			
 			// aapt resource value: 0x1
 			public const int FlowLayout_lineSpacing = 1;
@@ -9645,8 +9754,8 @@ namespace FTT.Droid
 					2130968587,
 					2130968588};
 			
-			// aapt resource value: 0x7F060014
-			public const int FontFamilyFont_android_font = 2131099668;
+			// aapt resource value: 0x7F070027
+			public const int FontFamilyFont_android_font = 2131165223;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -9675,8 +9784,8 @@ namespace FTT.Droid
 			// aapt resource value: 0x9
 			public const int FontFamilyFont_ttcIndex = 9;
 			
-			// aapt resource value: 0x7F060007
-			public const int FontFamily_fontProviderAuthority = 2131099655;
+			// aapt resource value: 0x7F070020
+			public const int FontFamily_fontProviderAuthority = 2131165216;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -9698,8 +9807,8 @@ namespace FTT.Droid
 					16843264,
 					2130968796};
 			
-			// aapt resource value: 0x7F060408
-			public const int ForegroundLinearLayout_android_foreground = 2131100680;
+			// aapt resource value: 0x7F070421
+			public const int ForegroundLinearLayout_android_foreground = 2131166241;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -9725,14 +9834,14 @@ namespace FTT.Droid
 					16843173,
 					16844052};
 			
-			// aapt resource value: 0x7F060038
-			public const int GradientColorItem_android_color = 2131099704;
+			// aapt resource value: 0x7F070051
+			public const int GradientColorItem_android_color = 2131165265;
 			
 			// aapt resource value: 0x1
 			public const int GradientColorItem_android_offset = 1;
 			
-			// aapt resource value: 0x7F060025
-			public const int GradientColor_android_centerColor = 2131099685;
+			// aapt resource value: 0x7F070038
+			public const int GradientColor_android_centerColor = 2131165240;
 			
 			// aapt resource value: 0x1
 			public const int GradientColor_android_centerX = 1;
@@ -9778,8 +9887,8 @@ namespace FTT.Droid
 					2130968875,
 					2130968921};
 			
-			// aapt resource value: 0x7F060412
-			public const int LinearLayoutCompat_android_baselineAligned = 2131100690;
+			// aapt resource value: 0x7F070425
+			public const int LinearLayoutCompat_android_baselineAligned = 2131166245;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -9805,8 +9914,8 @@ namespace FTT.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F060422
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131100706;
+			// aapt resource value: 0x7F070435
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131166261;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -9827,8 +9936,8 @@ namespace FTT.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F060427
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131100711;
+			// aapt resource value: 0x7F070440
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131166272;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -9851,8 +9960,8 @@ namespace FTT.Droid
 					2130968944,
 					2130968945};
 			
-			// aapt resource value: 0x7F060430
-			public const int MaterialButton_android_insetBottom = 2131100720;
+			// aapt resource value: 0x7F070443
+			public const int MaterialButton_android_insetBottom = 2131166275;
 			
 			// aapt resource value: 0x1
 			public const int MaterialButton_android_insetLeft = 1;
@@ -9903,8 +10012,8 @@ namespace FTT.Droid
 					2130968944,
 					2130968945};
 			
-			// aapt resource value: 0x7F060447
-			public const int MaterialCardView_strokeColor = 2131100743;
+			// aapt resource value: 0x7F070460
+			public const int MaterialCardView_strokeColor = 2131166304;
 			
 			// aapt resource value: 0x1
 			public const int MaterialCardView_strokeWidth = 1;
@@ -9943,8 +10052,8 @@ namespace FTT.Droid
 					2130969004,
 					2130969008};
 			
-			// aapt resource value: 0x7F060450
-			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 2131100752;
+			// aapt resource value: 0x7F070463
+			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 2131166307;
 			
 			// aapt resource value: 0x1
 			public const int MaterialComponentsTheme_bottomSheetStyle = 1;
@@ -10047,8 +10156,8 @@ namespace FTT.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F060483
-			public const int MenuGroup_android_checkableBehavior = 2131100803;
+			// aapt resource value: 0x7F070496
+			public const int MenuGroup_android_checkableBehavior = 2131166358;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -10090,8 +10199,8 @@ namespace FTT.Droid
 					2130968920,
 					2130969036};
 			
-			// aapt resource value: 0x7F060490
-			public const int MenuItem_actionLayout = 2131100816;
+			// aapt resource value: 0x7F070503
+			public const int MenuItem_actionLayout = 2131166467;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -10170,8 +10279,8 @@ namespace FTT.Droid
 					2130968899,
 					2130968946};
 			
-			// aapt resource value: 0x7F060514
-			public const int MenuView_android_headerBackground = 2131100948;
+			// aapt resource value: 0x7F070527
+			public const int MenuView_android_headerBackground = 2131166503;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -10211,8 +10320,8 @@ namespace FTT.Droid
 					2130968838,
 					2130968876};
 			
-			// aapt resource value: 0x7F060524
-			public const int NavigationView_android_background = 2131100964;
+			// aapt resource value: 0x7F070537
+			public const int NavigationView_android_background = 2131166519;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -10255,11 +10364,11 @@ namespace FTT.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968937};
 			
-			// aapt resource value: 0x7F060541
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131100993;
+			// aapt resource value: 0x7F070554
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131166548;
 			
-			// aapt resource value: 0x7F060537
-			public const int PopupWindow_android_popupAnimationStyle = 2131100983;
+			// aapt resource value: 0x7F070550
+			public const int PopupWindow_android_popupAnimationStyle = 2131166544;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -10267,12 +10376,62 @@ namespace FTT.Droid
 			// aapt resource value: 0x2
 			public const int PopupWindow_overlapAnchor = 2;
 			
+			public static int[] ProgressWheel = new int[] {
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0};
+			
+			// aapt resource value: 0x7F070005
+			public const int ProgressWheel_ahBarColor = 2131165189;
+			
+			// aapt resource value: 0x7F070013
+			public const int ProgressWheel_ahBarLength = 2131165203;
+			
+			// aapt resource value: 0x7F070012
+			public const int ProgressWheel_ahBarWidth = 2131165202;
+			
+			// aapt resource value: 0x7F070010
+			public const int ProgressWheel_ahCircleColor = 2131165200;
+			
+			// aapt resource value: 0x7F070009
+			public const int ProgressWheel_ahDelayMillis = 2131165193;
+			
+			// aapt resource value: 0x7F070011
+			public const int ProgressWheel_ahRadius = 2131165201;
+			
+			// aapt resource value: 0x7F070006
+			public const int ProgressWheel_ahRimColor = 2131165190;
+			
+			// aapt resource value: 0x7F070007
+			public const int ProgressWheel_ahRimWidth = 2131165191;
+			
+			// aapt resource value: 0x7F070008
+			public const int ProgressWheel_ahSpinSpeed = 2131165192;
+			
+			// aapt resource value: 0x7F070002
+			public const int ProgressWheel_ahText = 2131165186;
+			
+			// aapt resource value: 0x7F070003
+			public const int ProgressWheel_ahTextColor = 2131165187;
+			
+			// aapt resource value: 0x7F070004
+			public const int ProgressWheel_ahTextSize = 2131165188;
+			
 			public static int[] RecycleListView = new int[] {
 					2130968884,
 					2130968887};
 			
-			// aapt resource value: 0x7F060543
-			public const int RecycleListView_paddingBottomNoButtons = 2131100995;
+			// aapt resource value: 0x7F070556
+			public const int RecycleListView_paddingBottomNoButtons = 2131166550;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -10290,8 +10449,8 @@ namespace FTT.Droid
 					2130968930,
 					2130968936};
 			
-			// aapt resource value: 0x7F060546
-			public const int RecyclerView_android_descendantFocusability = 2131100998;
+			// aapt resource value: 0x7F070559
+			public const int RecyclerView_android_descendantFocusability = 2131166553;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -10326,14 +10485,14 @@ namespace FTT.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968825};
 			
-			// aapt resource value: 0x7F060558
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131101016;
+			// aapt resource value: 0x7F070571
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131166577;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968635};
 			
-			// aapt resource value: 0x7F060560
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131101024;
+			// aapt resource value: 0x7F070573
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166579;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -10354,8 +10513,8 @@ namespace FTT.Droid
 					2130968952,
 					2130969043};
 			
-			// aapt resource value: 0x7F060562
-			public const int SearchView_android_focusable = 2131101026;
+			// aapt resource value: 0x7F070575
+			public const int SearchView_android_focusable = 2131166581;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -10414,8 +10573,8 @@ namespace FTT.Droid
 					2130968758,
 					2130968872};
 			
-			// aapt resource value: 0x7F060583
-			public const int SnackbarLayout_android_maxWidth = 2131101059;
+			// aapt resource value: 0x7F070596
+			public const int SnackbarLayout_android_maxWidth = 2131166614;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -10423,8 +10582,8 @@ namespace FTT.Droid
 			// aapt resource value: 0x2
 			public const int SnackbarLayout_maxActionInlineWidth = 2;
 			
-			// aapt resource value: 0x7F060580
-			public const int Snackbar_snackbarButtonStyle = 2131101056;
+			// aapt resource value: 0x7F070593
+			public const int Snackbar_snackbarButtonStyle = 2131166611;
 			
 			// aapt resource value: 0x1
 			public const int Snackbar_snackbarStyle = 1;
@@ -10436,8 +10595,8 @@ namespace FTT.Droid
 					16843131,
 					2130968897};
 			
-			// aapt resource value: 0x7F060587
-			public const int Spinner_android_dropDownWidth = 2131101063;
+			// aapt resource value: 0x7F070600
+			public const int Spinner_android_dropDownWidth = 2131166720;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -10462,11 +10621,11 @@ namespace FTT.Droid
 			public static int[] StateListDrawableItem = new int[] {
 					16843161};
 			
-			// aapt resource value: 0x7F060752
-			public const int StateListDrawableItem_android_drawable = 2131101522;
+			// aapt resource value: 0x7F070765
+			public const int StateListDrawableItem_android_drawable = 2131167077;
 			
-			// aapt resource value: 0x7F060745
-			public const int StateListDrawable_android_constantSize = 2131101509;
+			// aapt resource value: 0x7F070758
+			public const int StateListDrawable_android_constantSize = 2131167064;
 			
 			// aapt resource value: 0x1
 			public const int StateListDrawable_android_dither = 1;
@@ -10499,8 +10658,8 @@ namespace FTT.Droid
 					2130969038,
 					2130969039};
 			
-			// aapt resource value: 0x7F060593
-			public const int SwitchCompat_android_textOff = 2131101075;
+			// aapt resource value: 0x7F070606
+			public const int SwitchCompat_android_textOff = 2131166726;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -10546,8 +10705,8 @@ namespace FTT.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F060608
-			public const int TabItem_android_icon = 2131101192;
+			// aapt resource value: 0x7F070621
+			public const int TabItem_android_icon = 2131166753;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -10582,8 +10741,8 @@ namespace FTT.Droid
 					2130968981,
 					2130968982};
 			
-			// aapt resource value: 0x7F060612
-			public const int TabLayout_tabBackground = 2131101202;
+			// aapt resource value: 0x7F070625
+			public const int TabLayout_tabBackground = 2131166757;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -10672,8 +10831,8 @@ namespace FTT.Droid
 					2130968786,
 					2130968983};
 			
-			// aapt resource value: 0x7F060638
-			public const int TextAppearance_android_fontFamily = 2131101240;
+			// aapt resource value: 0x7F070651
+			public const int TextAppearance_android_fontFamily = 2131166801;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -10741,8 +10900,8 @@ namespace FTT.Droid
 					2130968894,
 					2130968895};
 			
-			// aapt resource value: 0x7F060652
-			public const int TextInputLayout_android_hint = 2131101266;
+			// aapt resource value: 0x7F070665
+			public const int TextInputLayout_android_hint = 2131166821;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -10830,8 +10989,8 @@ namespace FTT.Droid
 					2130968759,
 					2130968760};
 			
-			// aapt resource value: 0x7F060681
-			public const int ThemeEnforcement_android_textAppearance = 2131101313;
+			// aapt resource value: 0x7F070694
+			public const int ThemeEnforcement_android_textAppearance = 2131166868;
 			
 			// aapt resource value: 0x1
 			public const int ThemeEnforcement_enforceMaterialTheme = 1;
@@ -10870,8 +11029,8 @@ namespace FTT.Droid
 					2130969028,
 					2130969029};
 			
-			// aapt resource value: 0x7F060685
-			public const int Toolbar_android_gravity = 2131101317;
+			// aapt resource value: 0x7F070698
+			public const int Toolbar_android_gravity = 2131166872;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -10969,8 +11128,8 @@ namespace FTT.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F060721
-			public const int ViewBackgroundHelper_android_background = 2131101473;
+			// aapt resource value: 0x7F070734
+			public const int ViewBackgroundHelper_android_background = 2131167028;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -10983,8 +11142,8 @@ namespace FTT.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F060725
-			public const int ViewStubCompat_android_id = 2131101477;
+			// aapt resource value: 0x7F070738
+			public const int ViewStubCompat_android_id = 2131167032;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -10992,8 +11151,8 @@ namespace FTT.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F060715
-			public const int View_android_focusable = 2131101461;
+			// aapt resource value: 0x7F070728
+			public const int View_android_focusable = 2131167016;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;

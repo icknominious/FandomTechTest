@@ -7,7 +7,59 @@
              x:Class="FTT.Views.NewPlayer">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Entry Text="Enter player name"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                FontSize="Large"/>
+            <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MLS_crest_logo_RGB_gradient.svg/1200px-MLS_crest_logo_RGB_gradient.svg.png" 
+                Aspect="AspectFill"
+                HeightRequest="160" 
+                WidthRequest="160"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"/>
+            <Button x:Name="PictureButton"
+                CornerRadius="15"
+                Text="Edit Picture"
+                FontSize="Small"
+                Padding="10"
+                HeightRequest="40"
+                WidthRequest="80"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Stats"
+                VerticalOptions="End" 
+                HorizontalOptions="CenterAndExpand" 
+                FontAttributes="Bold"
+                FontSize="Medium"/>
+            <Grid>
+                <Label Grid.Row="0" Grid.Column="0"
+                    Text="Goals"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                    FontSize="Medium"/>
+                <Label Grid.Row="0" Grid.Column="1"
+                    Text="Assists"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                    FontSize="Medium"/>
+                <Entry Grid.Row="1" Grid.Column="0"
+                    Text="0"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                    FontSize="Medium"/>
+                <Entry Grid.Row="1" Grid.Column="1"
+                    Text="0"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                    FontSize="Medium"/>
+            </Grid>
+            <Button x:Name="CreateButton"
+                CornerRadius="15"
+                Text="Create"
+                FontSize="Small"
+                Padding="10"
+                HeightRequest="50"
+                WidthRequest="90"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

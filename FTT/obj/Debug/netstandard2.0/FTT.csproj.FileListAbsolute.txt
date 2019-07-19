@@ -8,7 +8,9 @@ C:\Users\jalex\source\repos\icknominious\FTT\FTT\obj\Debug\netstandard2.0\Views\
 C:\Users\jalex\source\repos\icknominious\FTT\FTT\obj\Debug\netstandard2.0\FTT.csproj.CoreCompileInputs.cache
 C:\Users\jalex\source\repos\icknominious\FTT\FTT\obj\Debug\netstandard2.0\FTT.AssemblyInfoInputs.cache
 C:\Users\jalex\source\repos\icknominious\FTT\FTT\obj\Debug\netstandard2.0\FTT.AssemblyInfo.cs
-C:\Users\jalex\source\repos\icknominious\FTT\FTT\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\jalex\source\repos\icknominious\FTT\FTT\obj\Debug\netstandard2.0\FTT.dll
 C:\Users\jalex\source\repos\icknominious\FTT\FTT\obj\Debug\netstandard2.0\FTT.pdb
 C:\Users\jalex\source\repos\icknominious\FTT\FTT\obj\Debug\netstandard2.0\FTT.csprojAssemblyReference.cache
+C:\Users\jalex\source\repos\icknominious\FTT\FTT\obj\Debug\netstandard2.0\Views\NewPlayer.xaml.g.cs
+C:\Users\jalex\source\repos\icknominious\FTT\FTT\obj\Debug\netstandard2.0\Views\NewTeam.xaml.g.cs
+C:\Users\jalex\source\repos\icknominious\FTT\FTT\obj\Debug\netstandard2.0\XamlC.stamp

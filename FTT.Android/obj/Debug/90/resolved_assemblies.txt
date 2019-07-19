@@ -1,4 +1,6 @@
 C:\Users\jalex\source\repos\icknominious\FTT\FTT.Android\obj\Debug\90\android\assets\FTT.Android.dll
+C:\Users\jalex\source\repos\icknominious\FTT\FTT.Android\obj\Debug\90\android\assets\Acr.UserDialogs.dll
+C:\Users\jalex\source\repos\icknominious\FTT\FTT.Android\obj\Debug\90\android\assets\AndHUD.dll
 C:\Users\jalex\source\repos\icknominious\FTT\FTT.Android\obj\Debug\90\android\assets\FormsViewGroup.dll
 C:\Users\jalex\source\repos\icknominious\FTT\FTT.Android\obj\Debug\90\android\assets\FTT.dll
 C:\Users\jalex\source\repos\icknominious\FTT\FTT.Android\obj\Debug\90\android\assets\Java.Interop.dll

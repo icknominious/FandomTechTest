@@ -8,29 +8,37 @@
              Title="New Team">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Team Name"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Entry Text="Enter team name"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Label Text="Team Logo"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MLS_crest_logo_RGB_gradient.svg/1200px-MLS_crest_logo_RGB_gradient.svg.png" 
+            <Entry Placeholder="Enter team name"
+                VerticalOptions="End" 
+                HorizontalOptions="CenterAndExpand" 
+                FontSize="Large"/>
+            <Image x:Name="Logo"
+                Source="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MLS_crest_logo_RGB_gradient.svg/1200px-MLS_crest_logo_RGB_gradient.svg.png" 
                 Aspect="AspectFill"
-                HeightRequest="80" 
-                WidthRequest="80"
+                HeightRequest="260" 
+                WidthRequest="260"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
+            <Button x:Name="PictureButton"
+                CornerRadius="15"
+                Text="Edit Picture"
+                FontSize="Small"
+                Padding="10"
+                HeightRequest="60"
+                WidthRequest="160"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                Clicked="PictureButton_Clicked"/>
             <Button x:Name="CreateButton"
                 CornerRadius="15"
                 Text="Create"
                 FontSize="Small"
                 Padding="10"
-                HeightRequest="35"
+                HeightRequest="60"
+                WidthRequest="250"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                Clicked="CreateButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

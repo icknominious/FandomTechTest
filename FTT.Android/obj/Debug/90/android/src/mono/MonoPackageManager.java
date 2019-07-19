@@ -111,6 +111,8 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "FTT.Android.dll" comes first in this list. */
 		"FTT.Android.dll",
+		"Acr.UserDialogs.dll",
+		"AndHUD.dll",
 		"FormsViewGroup.dll",
 		"FTT.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",

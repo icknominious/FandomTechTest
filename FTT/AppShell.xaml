@@ -46,11 +46,11 @@
         <ShellContent Route="createteam"
                       Style="{StaticResource MainShell}"
                       Title="Create Team"
-                      ContentTemplate="{DataTemplate views:TeamPage}" />
+                      ContentTemplate="{DataTemplate views:NewTeam}" />
         <ShellContent Route="createplayer"
                       Style="{StaticResource MainShell}"
                       Title="Create Player"
-                      ContentTemplate="{DataTemplate views:TeamPage}" />
+                      ContentTemplate="{DataTemplate views:NewPlayer}" />
     </FlyoutItem>
 
 </Shell>
