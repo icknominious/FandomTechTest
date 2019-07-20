@@ -2,6 +2,7 @@
 using System.Collections.ObjectModel;
 using FTT.Models;
 
+//Team dataset used in lieu of permanent database
 namespace FTT.Data
 {
     public static class TeamData
@@ -67,6 +68,11 @@ namespace FTT.Data
             {
                 Name = "Seattle Sounders",
                 Image = "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Seattle_Sounders_FC.svg/1200px-Seattle_Sounders_FC.svg.png"
+            });
+            TeamList.Add(new Team
+            {
+                Name = "Toronto FC",
+                Image = "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Toronto_FC_Logo.svg/2560px-Toronto_FC_Logo.svg.png"
             });
             TeamList.Add(new Team
             {
