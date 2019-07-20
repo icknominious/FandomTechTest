@@ -14,7 +14,6 @@ namespace FTT.Views
     public partial class PlayerPage : ContentPage
     {
         public string teamName;
-        List<string> teamNames;
         public string Team
         {
             set
@@ -26,11 +25,6 @@ namespace FTT.Views
         public PlayerPage()
         {
             InitializeComponent();
-            teamNames = new List<string>();                                                                                             //Build a list of current teams for the teamPicker.
-            foreach (Team team in TeamData.TeamList)
-            {
-                teamNames.Add(team.Name);
-            }
         }
 
         private void RemoveButtonClicked(object sender, System.EventArgs e)
