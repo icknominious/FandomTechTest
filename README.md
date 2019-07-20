@@ -41,5 +41,8 @@ All of the app's features can be used in combination with one another. For examp
 3. Move several players from other teams to Free Agents and then move them to the new team. Pick a single player from each of the other teams, if desired and add them to the new team.
 4. Done
 
+### Screenshots
+![Team Page](teamPage.png) ![Player Page](playerPage.png) ![Create Team Page](createTeam.png) ![Create Player Page](createPlayer.png) 
+
 
 
