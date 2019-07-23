@@ -16,14 +16,14 @@ namespace FTT.Views
         async private void ViewButtonClicked(object sender, System.EventArgs e)
         {
             Button button = (Button)sender;
-            string team = button.CommandParameter.ToString();
+            string team = button.CommandParameter.ToString();                                                                   //Navigate to team page
             await Shell.Current.GoToAsync($"players?team={team}");
         }
 
         private void RemoveButtonClicked(object sender, System.EventArgs e)
         {
             Button button = (Button)sender;
-            TeamData.TeamList.Remove(TeamData.TeamList.FirstOrDefault(x => x.Name == button.CommandParameter.ToString()));
+            TeamData.TeamList.Remove(TeamData.TeamList.FirstOrDefault(x => x.Name == button.CommandParameter.ToString()));      //Remove team from the pool
         }
 
     }

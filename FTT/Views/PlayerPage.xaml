@@ -32,6 +32,7 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
                                 <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto" />
@@ -56,10 +57,11 @@
                                    Grid.ColumnSpan="2"
                                    Text="{Binding Team}" 
                                    TextColor="DarkSlateGray"
+                                   FontAttributes="Italic"
                                    HorizontalOptions="StartAndExpand"
                                    VerticalOptions="Center"/>
                             <StackLayout Grid.Column="1" Grid.Row="1">
-                                <Label Text="Goals"
+                                <Label Text="G"
                                        TextColor="Black"
                                        HorizontalOptions="Center"
                                        VerticalOptions="Center"/>
@@ -69,7 +71,7 @@
                                        VerticalOptions="End"/>
                             </StackLayout>
                             <StackLayout Grid.Column="2" Grid.Row="1">
-                                <Label Text="Assists"
+                                <Label Text="A"
                                        TextColor="Black"
                                        HorizontalOptions="Center"
                                        VerticalOptions="End"/>
@@ -78,27 +80,48 @@
                                        HorizontalOptions="Center"
                                        VerticalOptions="Center"/>
                             </StackLayout>
-                            <Picker x:Name="teamPicker"
-                                    Title="Change Team"
-                                    ItemsSource="{x:Static data:TeamData.teamNames}"
-                                    Grid.Row="1"
-                                    Grid.Column="3"
-                                    FontSize="9"
-                                    TextColor="Black"
-                                    HorizontalOptions="Center"
-                                    HeightRequest="40"
-                                    VerticalOptions="Center"
-                                    BackgroundColor="LightGray"
-                                    SelectedIndexChanged="TeamPicker_SelectedIndexChanged"/>
-                            <Button x:Name="RemoveButton"
-                                    Grid.Row="1"
-                                    Grid.Column="4"
-                                    Text="Remove"
-                                    FontSize="8"
-                                    Clicked="RemoveButtonClicked"
-                                    CommandParameter="{Binding Name}"
-                                    HeightRequest="40"
-                                    VerticalOptions="Center"/>
+                            <StackLayout Grid.Column="3" Grid.Row="1">
+                                <Label Text="GP"
+                                       TextColor="Black"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="End"/>
+                                <Entry Text="{Binding GamesPlayed}" 
+                                       TextColor="DarkSlateGray"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center"/>
+                            </StackLayout>
+                            <StackLayout Grid.Column="4" Grid.Row="1">
+                                <Label Text="GS"
+                                       TextColor="Black"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="End"/>
+                                <Entry Text="{Binding GamesStarted}" 
+                                       TextColor="DarkSlateGray"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center"/>
+                            </StackLayout>
+                            <Grid Grid.Row="2" Grid.ColumnSpan="5">
+                                <Picker x:Name="teamPicker"
+                                        Title="Change Team"
+                                        ItemsSource="{x:Static data:TeamData.teamNames}"
+                                        FontSize="Small"
+                                        TextColor="Black"                                       
+                                        HeightRequest="35"
+                                        WidthRequest="150"
+                                        HorizontalOptions="CenterAndExpand"
+                                        VerticalOptions="Center"
+                                        SelectedIndexChanged="TeamPicker_SelectedIndexChanged"/>
+                                <Button x:Name="RemoveButton"
+                                        Grid.Column="1"
+                                        Text="Remove"
+                                        FontSize="Small"
+                                        Clicked="RemoveButtonClicked"
+                                        CommandParameter="{Binding Name}"
+                                        HeightRequest="35"
+                                        WidthRequest="150"
+                                        HorizontalOptions="CenterAndExpand"
+                                        VerticalOptions="Center"/>
+                            </Grid>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

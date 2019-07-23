@@ -2,12 +2,13 @@
 using System.Collections.ObjectModel;
 using FTT.Models;
 
+//Team dataset used in lieu of permanent database
 namespace FTT.Data
 {
     public static class TeamData
     {
         public static ObservableCollection<Team> TeamList { get; set; }
-        public static List<string> teamNames;
+        public static ObservableCollection<string> teamNames;
 
         static TeamData()
         {
@@ -70,11 +71,16 @@ namespace FTT.Data
             });
             TeamList.Add(new Team
             {
+                Name = "Toronto FC",
+                Image = "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Toronto_FC_Logo.svg/2560px-Toronto_FC_Logo.svg.png"
+            });
+            TeamList.Add(new Team
+            {
                 Name = "Free Agents",
                 Image = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MLS_crest_logo_RGB_gradient.svg/1200px-MLS_crest_logo_RGB_gradient.svg.png"
             });
 
-            teamNames = new List<string>();
+            teamNames = new ObservableCollection<string>();
             foreach (Team team in TeamList)
             {
                 teamNames.Add(team.Name);

@@ -31,7 +31,7 @@
                 FontSize="Small"
                 Padding="10"
                 HeightRequest="40"
-                WidthRequest="80"
+                WidthRequest="160"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" 
                 Clicked="PictureButton_Clicked"/>
@@ -51,6 +51,16 @@
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand" 
                     FontSize="Medium"/>
+                <Label Grid.Row="0" Grid.Column="2"
+                    Text="Games Played"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                    FontSize="Medium"/>
+                <Label Grid.Row="0" Grid.Column="3"
+                    Text="Games Started"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                    FontSize="Medium"/>
                 <Entry Grid.Row="1" Grid.Column="0"
                     x:Name="goalsEntry"
                     Text="0"
@@ -60,6 +70,20 @@
                     WidthRequest="40"/>
                 <Entry Grid.Row="1" Grid.Column="1"
                     x:Name="assistsEntry"
+                    Text="0"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                    FontSize="Medium"
+                    WidthRequest="40"/>
+                <Entry Grid.Row="1" Grid.Column="2"
+                    x:Name="gamesPlayedEntry"
+                    Text="0"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                    FontSize="Medium"
+                    WidthRequest="40"/>
+                <Entry Grid.Row="1" Grid.Column="3"
+                    x:Name="gamesStartedEntry"
                     Text="0"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand" 

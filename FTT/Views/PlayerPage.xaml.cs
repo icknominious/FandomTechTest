@@ -14,38 +14,36 @@ namespace FTT.Views
     public partial class PlayerPage : ContentPage
     {
         public string teamName;
-        List<string> teamNames;
         public string Team
         {
             set
             {
                 teamName = Uri.UnescapeDataString(value);
-                PlayerCollection.ItemsSource = PlayerData.PlayerList.Where(x => x.Team == teamName);
+                PlayerCollection.ItemsSource = PlayerData.PlayerList.Where(x => x.Team == teamName);                                    //Collection view is bound to players whose team matches previously selected team.
             }
         }
         public PlayerPage()
         {
             InitializeComponent();
-            teamNames = new List<string>();
-            foreach (Team team in TeamData.TeamList)
-            {
-                teamNames.Add(team.Name);
-            }
         }
 
         private void RemoveButtonClicked(object sender, System.EventArgs e)
         {
             Button button = (Button)sender;
-            PlayerData.PlayerList.FirstOrDefault(x => x.Name == button.CommandParameter.ToString()).Team = "Free Agents";
-            PlayerCollection.ItemsSource = PlayerData.PlayerList.Where(x => x.Team == teamName);
+            if (teamName != "Free Agents")                                                                                      
+                PlayerData.PlayerList.FirstOrDefault(x => x.Name == button.CommandParameter.ToString()).Team = "Free Agents";           //Remove player from team and send him to Free Agents.
+            else
+                PlayerData.PlayerList.Remove(PlayerData.PlayerList.FirstOrDefault(x => x.Name == button.CommandParameter.ToString()));  //If player is already on the Free Agent list, remove from the player pool.
+
+            PlayerCollection.ItemsSource = PlayerData.PlayerList.Where(x => x.Team == teamName);                                        //Reset view to updated player list.
         }
 
         private void TeamPicker_SelectedIndexChanged(object sender, EventArgs e)
         {
             Picker picker = (Picker)sender;
             Player player = (Player)picker.BindingContext;
-            PlayerData.PlayerList.FirstOrDefault(x => x.Name == player.Name).Team = picker.SelectedItem.ToString();
-            PlayerCollection.ItemsSource = PlayerData.PlayerList.Where(x => x.Team == teamName);
+            PlayerData.PlayerList.FirstOrDefault(x => x.Name == player.Name).Team = picker.SelectedItem.ToString();                     //Player's team is changed to new team.
+            PlayerCollection.ItemsSource = PlayerData.PlayerList.Where(x => x.Team == teamName);                                        //Reset view to updated player list. Player with changed team is no longer visible.
         }
     }
 }
